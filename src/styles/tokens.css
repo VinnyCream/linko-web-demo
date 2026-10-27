@@ -1,0 +1,162 @@
+/* Linko, generated from Linko Design System tokens.json. Do not edit by hand: scripts/gen_tokens.py */
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --brand-blue: #0b74fa;
+  --brand-leaf: #36cc4e;
+  --brand-ink: #0a4bd8;
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #edf1f7;
+  --surface-inverse: #14203a;
+  --border: #dfe5ee;
+  --border-strong: #7c8ba2;
+  --text: #121a2b;
+  --text-muted: #4f5d75;
+  --text-subtle: #647288;
+  --text-inverse: #f4f7fb;
+  --primary: #0662e0;
+  --primary-hover: #0553c2;
+  --primary-pressed: #0445a3;
+  --on-primary: #ffffff;
+  --primary-subtle: #e6f0ff;
+  --primary-text: #0556c8;
+  --accent: #23a93b;
+  --accent-subtle: #e7f8ea;
+  --accent-text: #157a2c;
+  --on-accent: #062a10;
+  --focus-ring: #0662e0;
+  --success: #1f8f3e;
+  --success-subtle: #e6f6eb;
+  --success-text: #176e30;
+  --warning: #e29400;
+  --warning-subtle: #fff4dc;
+  --warning-text: #7a4f00;
+  --on-warning: #2b1c00;
+  --danger: #d63a22;
+  --danger-hover: #b92f1a;
+  --danger-subtle: #fdebe7;
+  --danger-text: #b02a15;
+  --on-danger: #ffffff;
+  --presence-online: var(--accent);
+  --presence-away: var(--warning);
+  --presence-offline: #8a98ae;
+  --conn-colleague: #0556c8;
+  --conn-teammate: #157a2c;
+  --conn-mentor: #8a4b00;
+  --conn-mentee: #0b6f74;
+  --conn-friend: #b1245e;
+  --conn-follow: #4f5d75;
+  --overlay: rgba(12, 18, 32, 0.48);
+  --knob: #ffffff;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-tail: 4px;
+  --radius-full: 999px;
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --sidebar-expanded: 264px;
+  --sidebar-collapsed: 72px;
+  --topbar-height: 60px;
+  --content-max: 1200px;
+  --feed-max: 680px;
+  --z-sticky: 10;
+  --z-drawer: 40;
+  --z-overlay: 50;
+  --z-toast: 60;
+  --z-tooltip: 70;
+  --shadow-1: 0 1px 2px rgba(18, 26, 43, 0.08);
+  --shadow-2: 0 10px 28px -8px rgba(18, 26, 43, 0.18), 0 2px 6px rgba(18, 26, 43, 0.06);
+  --shadow-3: 0 24px 64px -12px rgba(18, 26, 43, 0.28);
+  --font-sans: "Be Vietnam Pro", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0c1220;
+  --surface: #121a2b;
+  --surface-raised: #182236;
+  --surface-sunken: #0e1626;
+  --surface-inverse: #e8eef8;
+  --border: #253149;
+  --border-strong: #5a6a85;
+  --text: #e8eef8;
+  --text-muted: #a3b1c6;
+  --text-subtle: #8494ad;
+  --text-inverse: #121a2b;
+  --primary: #4d97fd;
+  --primary-hover: #6ba9ff;
+  --primary-pressed: #89baff;
+  --on-primary: #071630;
+  --primary-subtle: #152a4d;
+  --primary-text: #86b8ff;
+  --accent: #3fd35a;
+  --accent-subtle: #11301b;
+  --accent-text: #6fe486;
+  --focus-ring: #86b8ff;
+  --success: #45c768;
+  --success-subtle: #10301c;
+  --success-text: #7ddc95;
+  --warning: #f2b23a;
+  --warning-subtle: #33260a;
+  --warning-text: #f6c76a;
+  --danger: #ff7a63;
+  --danger-hover: #ff9682;
+  --danger-subtle: #3a1712;
+  --danger-text: #ff9c8a;
+  --on-danger: #2a0904;
+  --presence-offline: #5a6a85;
+  --conn-colleague: #86b8ff;
+  --conn-teammate: #6fe486;
+  --conn-mentor: #f5b660;
+  --conn-mentee: #5fd3d8;
+  --conn-friend: #ff8db8;
+  --conn-follow: #a3b1c6;
+  --overlay: rgba(3, 6, 12, 0.66);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 12px 32px -8px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(134, 184, 255, 0.08);
+  --shadow-3: 0 24px 64px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(134, 184, 255, 0.1);
+}
+.t-display { font-family: var(--font-sans); font-size: 40px; line-height: 48px; font-weight: 600; letter-spacing: -0.02em; }
+.t-h1 { font-family: var(--font-sans); font-size: 32px; line-height: 40px; font-weight: 600; letter-spacing: -0.015em; }
+.t-h2 { font-family: var(--font-sans); font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.01em; }
+.t-h3 { font-family: var(--font-sans); font-size: 20px; line-height: 28px; font-weight: 600; letter-spacing: -0.005em; }
+.t-h4 { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 600; }
+.t-body-lg { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; }
+.t-body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.t-ui { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; }
+.t-label { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 500; }
+.t-caption { font-family: var(--font-sans); font-size: 12px; line-height: 18px; font-weight: 500; }
+.t-micro { font-family: var(--font-sans); font-size: 11px; line-height: 16px; font-weight: 600; }
+.t-mono { font-family: var(--font-mono); font-size: 13px; line-height: 20px; font-weight: 400; }
+.t-mono-sm { font-family: var(--font-mono); font-size: 12px; line-height: 18px; font-weight: 400; }
+
+/* Bảng màu biểu đồ: 6 slot phân loại theo thứ tự cố định (đã chạy validate_palette cho cả hai chế độ),
+   và dải tuần tự 5 bậc một sắc độ cho độ lớn. Màu đi theo thực thể, không theo thứ hạng. */
+:root {
+  --chart-1: #2a78d6; --chart-2: #eb6834; --chart-3: #1baf7a;
+  --chart-4: #eda100; --chart-5: #e87ba4; --chart-6: #008300;
+  --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #5598e7; --seq-4: #2a78d6; --seq-5: #1c5cab;
+  --seq-ink-light: #10325e; --seq-ink-dark: #ffffff;
+}
+:root[data-theme="dark"] {
+  --chart-1: #3987e5; --chart-2: #d95926; --chart-3: #199e70;
+  --chart-4: #c98500; --chart-5: #d55181; --chart-6: #008300;
+  --seq-1: #1a3354; --seq-2: #1f4a80; --seq-3: #2a63ad; --seq-4: #3987e5; --seq-5: #73adf0;
+  --seq-ink-light: #e8eef8; --seq-ink-dark: #0c1220;
+}

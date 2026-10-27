@@ -1,0 +1,24 @@
+{
+  "name": "linko-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Linko, mạng xã hội nội bộ doanh nghiệp trên Oracle 23ai và FastAPI V7 (frontend React).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "demo-data": "python scripts/gen_demo_data.py ../backend/sql/setup/02_sample_data.sql > src/api/mock/seed.json"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
